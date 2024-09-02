@@ -1,4 +1,4 @@
-local useConstant = require(script.Parent["react-lua-use-constants"])
+local useConstant = require(script.Parent["react-lua-use-constant"])
 
 local useDebouncedState = require(script.useDebouncedState)
 local useDefaultState = require(script.useDefaultState)

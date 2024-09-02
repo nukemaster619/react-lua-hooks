@@ -1,4 +1,4 @@
-local React = require('@Package/react')
+local React = require(script.Parent.Parent.Parent.react)
 
 local useState = React.useState
 local useMemo = React.useMemo

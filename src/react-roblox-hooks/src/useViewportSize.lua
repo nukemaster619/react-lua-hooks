@@ -1,5 +1,5 @@
-local useCamera = require('./useCamera')
-local usePropertyChange = require('./usePropertyChange')
+local useCamera = require(script.Parent.useCamera)
+local usePropertyChange = require(script.Parent.usePropertyChange)
 
 local function useViewportSize(fn: (Vector2) -> (), deps: { any })
     local camera = useCamera()

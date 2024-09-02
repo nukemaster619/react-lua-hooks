@@ -1,10 +1,9 @@
-local React = require('@pkg/@jsdotlua/react')
-local useService = require('@pkg/@seaofvoices/react-roblox-use-service').useService
+local React = require(script.Parent.Parent.Parent.react)
 
 local useMemo = React.useMemo
 
 local function useCamera(): Camera
-    local workspace = useService('Workspace')
+    local workspace = game:GetService("Workspace")
 
     local camera = useMemo(function()
         return workspace.CurrentCamera

@@ -1,20 +1,14 @@
-local ReactUseService = require('@pkg/@seaofvoices/react-roblox-use-service')
-
-local useCamera = require('./useCamera')
-local useCameraCFrame = require('./useCameraCFrame')
-local useEvent = require('./useEvent')
-local useGuiSizeBinding = require('./useGuiSizeBinding')
-local useLocalPlayer = require('./useLocalPlayer')
-local useObjectLocation = require('./useObjectLocation')
-local usePropertyChange = require('./usePropertyChange')
-local useTaggedInstances = require('./useTaggedInstances')
-local useTextSize = require('./useTextSize')
-local useViewportSize = require('./useViewportSize')
+local useCamera = require(script.useCamera)
+local useCameraCFrame = require(script.useCameraCFrame)
+local useEvent = require(script.useEvent)
+local useGuiSizeBinding = require(script.useGuiSizeBinding)
+local useLocalPlayer = require(script.useLocalPlayer)
+local useObjectLocation = require(script.useObjectLocation)
+local usePropertyChange = require(script.usePropertyChange)
+local useTextSize = require(script.useTextSize)
+local useViewportSize = require(script.useViewportSize)
 
 return {
-    ServiceProvider = ReactUseService.ServiceProvider,
-    useService = ReactUseService.useService,
-
     useCamera = useCamera,
     useCameraCFrame = useCameraCFrame,
     useEvent = useEvent,
@@ -22,7 +16,6 @@ return {
     useLocalPlayer = useLocalPlayer,
     useObjectLocation = useObjectLocation,
     usePropertyChange = usePropertyChange,
-    useTaggedInstances = useTaggedInstances,
     useTextSize = useTextSize,
     useViewportSize = useViewportSize,
 }

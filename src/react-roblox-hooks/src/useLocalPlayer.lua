@@ -1,7 +1,5 @@
-local useService = require('@pkg/@seaofvoices/react-roblox-use-service').useService
-
 local function useLocalPlayer(): Player
-    local player = useService('Players').LocalPlayer
+    local player = game:GetService("Players").LocalPlayer
 
     return player
 end

@@ -1,11 +1,10 @@
-local React = require('@pkg/@jsdotlua/react')
-local useService = require('@pkg/@seaofvoices/react-roblox-use-service').useService
+local React = require(script.Parent.Parent.Parent.react)
 
 local function useTextSize(
     text: string,
     options: { size: number, font: Font, width: number? }
 ): Vector2
-    local textService = useService('TextService')
+    local textService = game:GetService("TextService")
 
     local textSize = options.size
     local textFont = options.font

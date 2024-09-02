@@ -1,4 +1,4 @@
-local React = require('@pkg/@jsdotlua/react')
+local React = require(script.Parent.Parent.react)
 
 local function useConstant<T>(create: () -> T): T
     local ref = React.useRef(nil :: any)

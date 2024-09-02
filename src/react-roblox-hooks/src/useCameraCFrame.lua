@@ -1,5 +1,5 @@
-local useCamera = require('./useCamera')
-local usePropertyChange = require('./usePropertyChange')
+local useCamera = require(script.Parent.useCamera)
+local usePropertyChange = require(script.Parent.usePropertyChange)
 
 local function useCameraCFrame(fn: (CFrame) -> (), deps: { any })
     local camera = useCamera()

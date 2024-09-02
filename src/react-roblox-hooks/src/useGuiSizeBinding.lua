@@ -1,4 +1,4 @@
-local React = require('@pkg/@jsdotlua/react')
+local React = require(script.Parent.Parent.Parent.react)
 
 local useBinding = React.useBinding
 local useRef = React.useRef
