@@ -1,8 +1,9 @@
 [package]
-name = "nukemaster619/react-lua-hooks"
+name = "nukemaster619/test-hooks"
 version = "0.1.0"
 registry = "https://github.com/UpliftGames/wally-index"
 realm = "shared"
+exclude = ["Packages"]
 
 [dependencies]
 react = "jsdotlua/react@17.1.0"
