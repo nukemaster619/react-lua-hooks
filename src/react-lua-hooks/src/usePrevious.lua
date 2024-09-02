@@ -1,4 +1,4 @@
-local React = require('@pkg/@jsdotlua/react')
+local React = require('@Package/react')
 
 local useRef = React.useRef
 local useEffect = React.useEffect
