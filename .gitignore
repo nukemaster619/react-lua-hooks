@@ -1,20 +1,6 @@
-/site
-/*.rbxl
-/*.rbxlx
-/*.rbxl.lock
+# Project place file
+/react-lua-hooks.rbxlx
+
+# Roblox Studio lock files
 /*.rbxlx.lock
-/*.rbxm
-/*.rbxmx
-
-/jest.lua
-/roblox
-/node_modules
-
-/.yarn
-
-build/
-test-places/
-
-/globalTypes.d.lua
-
-**/sourcemap.json
+/*.rbxl.lock
